@@ -1,0 +1,50 @@
+<!-- Google Homepage-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!--Top Right Navigation Bar-->
+    <nav id="nav_bar">
+      <ul id="nav-list">
+        <li><a href="images.html" target="_top">Images</a></li>
+        <li>
+          <a href="advanced_search.html" target="_top">Advanced Search</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--Google Search Main Page-->
+    <main>
+      <div id="main-page">
+        <img
+          id="logo"
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          alt="Google Logo"
+        />
+        <form id="lucky" action="https://www.google.com/doodles/"></form>
+        <form
+          class="search-form"
+          action="https://google.com/search"
+          autocomplete="off"
+        >
+          <input id="search-box" type="text" name="q" />
+          <div id="side-by-side">
+            <input class="btn" type="submit" value="Google Search" />
+            <input
+              form="lucky"
+              class="btn"
+              type="submit"
+              value="I'm Feeling Lucky"
+            />
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Images</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--Top Right Navigation Bar-->
+    <nav id="nav_bar">
+      <ul id="nav-list">
+        <li><a href="search.html" target="_top">Google</a></li>
+      </ul>
+    </nav>
+
+    <!--Google Images Main Page-->
+    <main>
+      <div id="main-page">
+        <img
+          id="logo"
+          src="https://i.imgur.com/S3Pj6gW.png"
+          alt="Google Logo"
+        />
+        <form
+          class="search-form"
+          action="https://google.com/search"
+          autocomplete="off"
+        >
+          <input id="images-box" type="text" name="q" />
+          <input
+            id="images-hidden-get-param"
+            type="hidden"
+            name="tbm"
+            value="isch"
+          />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

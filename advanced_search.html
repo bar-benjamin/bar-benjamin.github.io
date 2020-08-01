@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--Top Right Navigation Bar-->
+    <nav id="nav_bar">
+      <ul id="nav-list">
+        <li><a href="search.html" target="_top">Google</a></li>
+      </ul>
+    </nav>
+
+    <!--Google Images Main Page-->
+    <main>
+      <div id="title">Advanced Search</div>
+      <div id="hl"></div>
+      <div id="sub-title"><span>Find pages with...</span></div>
+
+      <form action="https://www.google.com/search" name="f">
+        <!--question 1-->
+        <div id="question-container">
+          <div id="question"><label>all these words:</label></div>
+          <input
+            id="question-box"
+            value
+            autofocus="autofocus"
+            autocomplete="off"
+            name="as_q"
+            type="text"
+          />
+        </div>
+
+        <!--question 2-->
+        <div id="question-container">
+          <div id="question"><label>this exact word or phrase:</label></div>
+          <input
+            id="question-box"
+            autocomplete="off"
+            name="as_epq"
+            type="text"
+          />
+        </div>
+
+        <!--question 3-->
+        <div id="question-container">
+          <div id="question"><label>any of these words:</label></div>
+          <input
+            id="question-box"
+            autocomplete="off"
+            name="as_oq"
+            type="text"
+          />
+        </div>
+
+        <!--question 4-->
+        <div id="question-container">
+          <div id="question"><label>none of these words:</label></div>
+          <input
+            id="question-box"
+            autocomplete="off"
+            name="as_eq"
+            type="text"
+          />
+        </div>
+
+        <input id="advanced-search-btn" type="submit" value="Advanced Search" />
+      </form>
+    </main>
+  </body>
+</html>
