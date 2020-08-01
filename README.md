@@ -7,4 +7,4 @@
 ![Google Images](https://i.imgur.com/4JlGwQc.jpg)
 
 ## advanced_search.html
-![Google Advanced Search](https://i.imgur.com/afJPewa.jpg)
+![Google Advanced Search](https://i.imgur.com/lzZjleQ.jpg)
